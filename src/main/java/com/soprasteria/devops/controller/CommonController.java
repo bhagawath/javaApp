@@ -8,7 +8,7 @@ import com.soprasteria.devops.model.BaseObj;
 @RestController
 public class CommonController {
 	
-	@GetMapping(value="/world")
+	@GetMapping(value="/world1")
 	public BaseObj helloWorld() {
 		
 		return new BaseObj("2034", "DEVOPS Accelerator", "Sopra Steria");
